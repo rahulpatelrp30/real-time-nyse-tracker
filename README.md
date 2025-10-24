@@ -59,7 +59,7 @@ This project demonstrates how real-time stock market data can be collected using
 Shows how the data is structured inside MongoDB after the Python script inserts stock information such as **symbol**, **price**, **change**, and **volume**.  
 
 <p align="center">
-  <img src="MongodbServer.jpg" width="100%" alt="MongoDB Compass Screenshot"/>
+  <img src="docs/mongodb-server.jpg" width="100%" alt="MongoDB Compass Screenshot"/>
 </p>
 
 ---
@@ -69,7 +69,7 @@ Displays the project folder structure hosted under Apache in XAMPP.
 It confirms that PHP, Python, and resource files are properly placed in the `htdocs` directory for execution.  
 
 <p align="center">
-  <img src="localHostWebPages.jpg" width="100%" alt="XAMPP Directory Listing"/>
+  <img src="docs/localhost-web-pages.jpg" width="100%" alt="XAMPP Directory Listing"/>
 </p>
 
 ---
@@ -78,7 +78,7 @@ It confirms that PHP, Python, and resource files are properly placed in the `htd
 This page dynamically retrieves and lists the most active NYSE stocks directly from MongoDB, displaying real-time data such as **price**, **change**, and **volume**.  
 
 <p align="center">
-  <img src="Result1.jpg" width="100%" alt="Result 1 - Most Active Stocks Part 1"/>
+  <img src="docs/result-1.jpg" width="100%" alt="Result 1 - Most Active Stocks Part 1"/>
 </p>
 
 ---
@@ -87,9 +87,8 @@ This page dynamically retrieves and lists the most active NYSE stocks directly f
 Continuation of the data table showing additional stocks, confirming that the data integration between Python, MongoDB, and PHP is functioning correctly.  
 
 <p align="center">
-  <img src="Result2.jpg" width="100%" alt="Result 2 - Most Active Stocks Part 2"/>
+  <img src="docs/result-2.jpg" width="100%" alt="Result 2 - Most Active Stocks Part 2"/>
 </p>
-
 ---
 
 ## 🧩 Folder Structure
