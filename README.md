@@ -55,31 +55,40 @@ This project demonstrates how real-time stock market data can be collected using
 
 ## 📸 Screenshots
 
-### 1. MongoDB Compass — Stored Stock Data
-Shows how the data is structured inside MongoDB after Python inserts the records.
+### 1️⃣ MongoDB Compass — Stored Stock Data  
+Shows how the data is structured inside MongoDB after the Python script inserts stock information such as **symbol**, **price**, **change**, and **volume**.  
 
-![MongoDB Compass Screenshot](./MongodbServer.jpg)
-
----
-
-### 2. XAMPP Directory — Project Files
-View of the project files hosted under Apache, confirming successful XAMPP setup.
-
-![XAMPP Directory Listing](./localHostWebPages.jpg)
+<p align="center">
+  <img src="MongodbServer.jpg" width="80%" alt="MongoDB Compass Screenshot"/>
+</p>
 
 ---
 
-### 3. Web Output — Most Active Stocks (Part 1)
-This page displays live data retrieved from MongoDB using PHP.
+### 2️⃣ XAMPP Directory — Project Files  
+Displays the project folder structure hosted under Apache in XAMPP.  
+It confirms that PHP, Python, and resource files are properly placed in the `htdocs` directory for execution.  
 
-![Result 1](./Result1.jpg)
+<p align="center">
+  <img src="./localHostWebPages.jpg" width="80%" alt="XAMPP Directory Listing"/>
+</p>
 
 ---
 
-### 4. Web Output — Most Active Stocks (Part 2)
-Continuation of the stock data listing with formatted table layout.
+### 3️⃣ Web Output — Most Active Stocks (Part 1)  
+This page dynamically retrieves and lists the most active NYSE stocks directly from MongoDB, displaying real-time data such as **price**, **change**, and **volume**.  
 
-![Result 2](./Result2.jpg)
+<p align="center">
+  <img src="./Result1.jpg" width="80%" alt="Result 1 - Most Active Stocks Part 1"/>
+</p>
+
+---
+
+### 4️⃣ Web Output — Most Active Stocks (Part 2)  
+Continuation of the data table showing additional stocks, confirming that the data integration between Python, MongoDB, and PHP is functioning correctly.  
+
+<p align="center">
+  <img src="./Result2.jpg" width="80%" alt="Result 2 - Most Active Stocks Part 2"/>
+</p>
 
 ---
 
