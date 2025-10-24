@@ -89,7 +89,7 @@ Continuation of the data table showing additional stocks, confirming that the da
 <p align="center">
   <img src="docs/result-2.jpg" width="100%" alt="Result 2 - Most Active Stocks Part 2"/>
 </p>
----
+
 
 ## 🧩 Folder Structure
 
